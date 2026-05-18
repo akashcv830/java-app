@@ -9,12 +9,13 @@
   <build>
     <plugins>
       <plugin>
-        <groupId>org.spache.maven.plugins</groupId>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
         <version>3.2.2</version>
         <configuration>
           <archive>
             <manifest>
-<mainClass>com.example.App</mainClass>
+                <mainClass>com.example.App</mainClass>
             </manifest>
           </configuration>
       </plugin>
