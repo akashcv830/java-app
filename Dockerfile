@@ -1,5 +1,6 @@
-FROM eclipse-temurin:17
+FROM ubuntu:latest
+RUN apt update && apt install -y python3
 WORKDIR /app
-COPY target/java-app-1.0.jar app.jar
-CMD ["java","-jar","app.jar"]
-CMD java -jar app.jar && tail -f /dev/null
+RUN echo "<h1>Hello from Akash</h1>
+index.html
+CMD ["python3", "-m", "http.server", "8081"]
