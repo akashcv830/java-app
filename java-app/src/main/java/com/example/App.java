@@ -1,6 +1,14 @@
 package com.example;
+import org.springframework.boot.SpringApplication;
+import
+  org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.nind.annotation.*;
+
 public class App {
 public static void main(String[] args) {
-System.out.println("Hello from Akash C v");
+  SpringApplication.run(App.class, args);
+}
+public String home() {
+  return " succesfully running";
 }
 }
