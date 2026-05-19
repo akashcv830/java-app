@@ -11,6 +11,6 @@ public class App {
 }
 @GetMapping("/")
 public String home() {
-  return "Hello from Akash";
+  return "Hello team from Akash";
 }
 }
