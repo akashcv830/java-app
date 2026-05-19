@@ -11,6 +11,6 @@ public class App {
 }
 @GetMapping("/")
 public String home() {
-  return "succesfully running";
+  return "Hello from Akash gowda";
 }
 }
